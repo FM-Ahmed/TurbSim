@@ -3,6 +3,9 @@
 
 # In[ ]:
 
+import os
+import pandas as pd
+import numpy as np
 
 def makefile_Profiles(folderpath, name, u, z):
 #     Inputs:
