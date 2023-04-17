@@ -48,5 +48,5 @@ def makefile_Profiles(folderpath, name, u, z):
 
     filename = str(folderpath) + str('\\') + str('{}'.format(name)) + str('.Profiles')
     np.savetxt(filename, df.values, fmt = '%.2f', delimiter = '\t', header = filestart, comments = '')
-    return print('Successfully created file {}.Profiles for TurbSim v2.00.'.format(str(name)))
+    return print('Successfully created input file {}.Profiles for TurbSim v2.00.'.format(str(name)))
 
