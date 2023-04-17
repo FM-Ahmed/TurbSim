@@ -9,7 +9,7 @@ import numpy as np
 
 def makefile_Profiles(folderpath, name, u, z):
 #     Inputs:
-#         folderpath: absolute path to folder where you want to place your file ('string')
+#         folderpath: absolute path to folder where you want to place your file ('string'). Format should be r'folderpath'.
 #         name: name of .Profiles file ('string')
 #         u: wind speed [array] or (list)
 #         z: height [array] or (list)
