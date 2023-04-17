@@ -9,8 +9,8 @@ import numpy as np
 
 def makefile_Profiles(folderpath, name, u, z):
 #     Inputs:
-#         folderpath: absolute path to folder where you want to place your file
-#         name: name of .Profiles file
+#         folderpath: absolute path to folder where you want to place your file ('string')
+#         name: name of .Profiles file ('string')
 #         u: wind speed [array] or (list)
 #         z: height [array] or (list)
 #     Outputs:
@@ -48,5 +48,5 @@ def makefile_Profiles(folderpath, name, u, z):
 
     filename = str(folderpath) + str('\\') + str('{}'.format(name)) + str('.Profiles')
     np.savetxt(filename, df.values, fmt = '%.2f', delimiter = '\t', header = filestart, comments = '')
-    return print('Successfully created file {}.Profiles for TurbSim v2.00.'.format(name))
+    return print('Successfully created file {}.Profiles for TurbSim v2.00.'.format(str(name)))
 
