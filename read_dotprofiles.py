@@ -7,7 +7,7 @@
 import numpy as np
 import pandas as pd
 
-def get_dotprofiles(path_to_profile):
+def read_dotprofiles(path_to_profile):
 #     Inputs:
 #         path_to_profile: absolute path to .Profiles file
 #     Outputs:
