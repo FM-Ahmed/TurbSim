@@ -6,9 +6,14 @@
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 def get_dotprofiles(path_to_profile):
+#     Inputs:
+#         path_to_profile: absolute path to .Profiles file
+#     Outputs:
+#         umean: mean wind velocity in x-direction [array]
+#         zh: corresponding heights [array]
+   
     windprof = open(path_to_profile)
     data_windprof = pd.read_csv(windprof, header = 11, sep='\s+', lineterminator = '\n', dtype = str)
     df_windprof = pd.DataFrame(data_windprof)
