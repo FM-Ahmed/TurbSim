@@ -4,7 +4,7 @@
 
 ### read_dotprofiles.py
 
-Function that returns wind speed array (u) and corresponding height array (z) from .Profiles input file for TurbSim v2.00.
+Function that returns wind speed array (u) and corresponding height array (z) from .Profiles input file for TurbSim v2.00 (for OpenFAST v3.4.1).
 
 ### makefile_Profiles.py
 
